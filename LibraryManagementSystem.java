@@ -100,8 +100,8 @@ class Magazine extends LibraryItem {
 public class LibraryManagementSystem {
     public static void main(String[] args) {
         // Create objects of Book and Magazine
-        Book book = new Book("Java Programming", "MD. SHOJIB MIA", 101, 593);
-        Magazine magazine = new Magazine("Tech Today", "RAFAZ UDDIN", 203, "January 2025");
+        Book book = new Book("Java Programming", "Shihab", 101, 601);
+        Magazine magazine = new Magazine("Tech Today", "Ahmed", 203, "January 2025");
 
         // Demonstrating Polymorphism
         LibraryItem item1 = book;
